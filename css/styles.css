@@ -211,6 +211,14 @@ img{
 	background: #222;
 }
 
+/*Hide content initially */
+#tab-1-content, #tab-2-content, #tab-3-content{
+	display: none;
+}
+
+.show{
+	display: block !important;
+}
 /*Footer*/
 .footer{
 	max-width: 75%;
@@ -287,6 +295,9 @@ img{
 	border-radius: 2px;
 }
 
+.btn-icon{
+	margin-left: 1rem;
+}
 .btn:hover{
 	opacity: 0.9;
 }
